@@ -1,0 +1,47 @@
+# Java compiled classes
+*.class
+
+# Package distribution
+*.jar
+*.war
+*.ear
+
+# Build directories
+/bin/
+/target/
+/out/
+/build/
+/dist/
+
+# Gradle
+.gradle/
+/build/
+
+# Maven wrapper
+.mvn/
+
+# IDEs and editors
+/.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# OS thumbnails
+Thumbs.db
+
+# Others
+*.log
+
+# Ignore generated images from diagram previews
+*.png
