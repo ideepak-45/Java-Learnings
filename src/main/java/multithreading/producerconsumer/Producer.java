@@ -13,7 +13,6 @@ public class Producer {
             for (int i = 0; i < numberOfItems; i++) {
                 try {
                     sharedResource.addItemToBuffer(i);
-                    System.out.println("Produced: " + i);
                 } catch (Exception e) {
                     System.out.println("Producer encountered an error while producing item " + i + ": " + e.getMessage());
                 }

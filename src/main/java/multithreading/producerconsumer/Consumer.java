@@ -12,7 +12,6 @@ public class Consumer {
             for (int i = 0; i < numberOfItems; i++) {
                 try {
                     int item = sharedResource.removeItemFromBuffer();
-                    System.out.println("Consumed: " + item);
                 } catch (Exception e) {
                     System.out.println("Consumer encountered an error while consuming item " + i + ": " + e.getMessage());
                 }
